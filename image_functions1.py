@@ -16,14 +16,14 @@ def create_only_red_image(old_image):
     return new_image
 
 
-def create_grey_scale_image(pixel_to_change):
+def create_grey_scale_image(old_image):
     """
     :return: a new image based on old_image with pixels representing gray-scale
     """
     raise RuntimeError("Not implemented")
 
 
-def create_thumbnail_image(my_image):
+def create_thumbnail_image(old_image):
     """
     :return: a new copy of the original image but 1/10th the size
     """
